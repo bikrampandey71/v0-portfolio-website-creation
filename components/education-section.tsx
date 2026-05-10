@@ -42,24 +42,24 @@ const education = [
 
 export function EducationSection() {
   return (
-    <section id="education" className="py-16 md:py-24 bg-secondary/30">
+    <section id="education" className="py-12 md:py-16 bg-secondary/30">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="flex items-center gap-3 mb-12">
+        <div className="flex items-center gap-3 mb-8">
           <GraduationCap className="h-6 w-6 text-primary" />
           <h2 className="text-primary font-semibold tracking-wider text-sm">EDUCATION</h2>
         </div>
 
         {/* Education Cards */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-6">
           {education.map((edu, index) => (
-            <div key={index} className="bg-card border border-border rounded-xl p-6 relative group">
+            <div key={index} className="bg-card border border-border rounded-xl p-5 relative group">
               {/* External Link */}
               {edu.link && (
                 <Link 
                   href={edu.link} 
                   target="_blank" 
-                  className="absolute top-6 right-6 text-muted-foreground hover:text-primary transition-colors"
+                  className="absolute top-5 right-5 text-muted-foreground hover:text-primary transition-colors"
                   aria-label={`Visit ${edu.institution}`}
                 >
                   <ExternalLink className="h-5 w-5" />

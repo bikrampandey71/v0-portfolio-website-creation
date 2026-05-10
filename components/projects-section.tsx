@@ -71,19 +71,19 @@ const projects = [
 
 export function ProjectsSection() {
   return (
-    <section id="projects" className="py-16 md:py-24 bg-secondary/30">
+    <section id="projects" className="py-12 md:py-16 bg-secondary/30">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="flex items-center gap-3 mb-12">
+        <div className="flex items-center gap-3 mb-8">
           <FolderOpen className="h-6 w-6 text-primary" />
           <h2 className="text-primary font-semibold tracking-wider text-sm">PROJECTS & RESEARCH</h2>
         </div>
 
         {/* Projects Grid */}
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-6">
           {projects.map((project, index) => (
-            <div key={index} className="bg-card border border-border rounded-xl p-6 group hover:border-primary/50 transition-colors">
-              <div className="flex items-start justify-between mb-4">
+            <div key={index} className="bg-card border border-border rounded-xl p-5 group hover:border-primary/50 transition-colors">
+              <div className="flex items-start justify-between mb-3">
                 <div>
                   <span className="text-primary text-sm font-medium">{project.year}</span>
                   <h3 className="text-lg font-semibold text-foreground mt-1">{project.title}</h3>

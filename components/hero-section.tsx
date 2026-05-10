@@ -1,13 +1,13 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Mail, Phone, MapPin, Link2, Flag, Linkedin, Github, Download } from "lucide-react"
+import { Mail, Phone, MapPin, Link2, Flag, Linkedin, Github } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   return (
-    <section className="pt-24 pb-16 md:pt-32 md:pb-24">
+    <section className="pt-24 pb-12 md:pt-28 md:pb-16">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-[1fr_1.5fr_1fr] gap-8 lg:gap-12 items-start">
+        <div className="grid lg:grid-cols-[1fr_1.5fr_1fr] gap-6 lg:gap-8 items-start">
           {/* Profile Image */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
@@ -30,16 +30,16 @@ export function HeroSection() {
 
           {/* Main Content */}
           <div className="text-center lg:text-left">
-            <p className="text-primary font-semibold tracking-wider text-sm mb-4">
+            <p className="text-primary font-semibold tracking-wider text-sm mb-3">
               WATER RESOURCE ENGINEER
             </p>
-            <h1 className="mb-6">
-              <span className="text-5xl md:text-7xl font-bold text-foreground block">Bikram</span>
-              <span className="text-5xl md:text-7xl font-serif italic text-muted-foreground">Pandey</span>
+            <h1 className="mb-4">
+              <span className="text-5xl md:text-6xl font-bold text-foreground block">Bikram</span>
+              <span className="text-5xl md:text-6xl font-serif italic text-muted-foreground">Pandey</span>
             </h1>
 
             {/* Tags */}
-            <div className="flex flex-wrap gap-3 justify-center lg:justify-start mb-6">
+            <div className="flex flex-wrap gap-2 justify-center lg:justify-start mb-4">
               <span className="px-4 py-2 border border-border rounded-full text-sm text-muted-foreground">
                 Civil Engineer
               </span>
@@ -52,7 +52,7 @@ export function HeroSection() {
             </div>
 
             {/* Bio */}
-            <p className="text-muted-foreground leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
+            <p className="text-muted-foreground leading-relaxed mb-6 max-w-xl mx-auto lg:mx-0 text-sm">
               Bikram Pandey is a water resources engineer and hydrologist specializing in hydrological modelling, 
               flood forecasting, and water resource systems. He holds a Master of Engineering degree in Water Engineering 
               and Management from the Asian Institute of Technology (completed December 2025), where his research focused 
@@ -76,21 +76,15 @@ export function HeroSection() {
                   LinkedIn Profile
                 </Link>
               </Button>
-              <Button asChild variant="outline" className="rounded-full px-6 border-border hover:bg-secondary">
-                <Link href="/Bikram_Pandey_CV.pdf" download>
-                  <Download className="mr-2 h-4 w-4" />
-                  Download Resume
-                </Link>
-              </Button>
             </div>
           </div>
 
           {/* Contact Sidebar */}
-          <div className="bg-card border border-border rounded-xl p-6">
-            <h3 className="text-primary font-semibold tracking-wider text-sm mb-6">
+          <div className="bg-card border border-border rounded-xl p-5">
+            <h3 className="text-primary font-semibold tracking-wider text-sm mb-4">
               CONTACT DETAILS
             </h3>
-            <div className="space-y-4">
+            <div className="space-y-3">
               <ContactItem 
                 icon={<Mail className="h-5 w-5" />} 
                 text="bikrampandey71@gmail.com" 
