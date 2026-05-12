@@ -76,6 +76,12 @@ export function HeroSection() {
                   LinkedIn Profile
                 </Link>
               </Button>
+              <Button asChild variant="outline" className="rounded-full px-6 border-border hover:bg-secondary">
+                <Link href="https://www.youtube.com/@bikrampandey6533" target="_blank">
+                  <Youtube className="mr-2 h-4 w-4" />
+                  YouTube Channel
+                </Link>
+              </Button>
             </div>
           </div>
 
