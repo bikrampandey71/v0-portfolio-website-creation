@@ -2,8 +2,8 @@ import { Award, Calendar } from "lucide-react"
 
 const trainings = [
   {
-    title: "Application of Satellite-based Soil Moisture Data Seminar",
-    organization: "INCAP",
+    title: "Seminar on Application of Satellite-based Soil Moisture Data",
+    organization: "NASA/AIT",
     year: "2024, 2025",
     description: "Attended comprehensive seminars on utilizing satellite-based soil moisture data for hydrological and agricultural applications."
   },
