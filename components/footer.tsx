@@ -14,10 +14,6 @@ export function Footer() {
               <span className="text-foreground font-semibold text-xl">Bikram</span>
               <span className="text-primary italic font-serif text-xl">Pandey</span>
             </Link>
-            <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-              Water Resources Engineer & Hydrologist specializing in hydrological modeling, 
-              flood forecasting, and water resource systems.
-            </p>
             <div className="flex gap-4">
               <Link 
                 href="https://www.linkedin.com/in/bikram-pandey-a2b54b1a2/" 
