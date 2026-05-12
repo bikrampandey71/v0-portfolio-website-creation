@@ -3,6 +3,18 @@ import Link from "next/link"
 
 const projects = [
   {
+    title: "GRACE/-FO Satellite Gravimetry for Groundwater Monitoring",
+    year: "2026-Present",
+    description: "Research project utilizing GRACE/-FO satellite data integrated with hydrological-numerical modeling for groundwater monitoring and water resource management in Southeast Asia. Includes downscaling techniques to refine resolution from ~300 km to ~10 km for practical applications.",
+    highlights: [
+      "Developed downscaling algorithms for GRACE/-FO data",
+      "Combined satellite data with hydrological models for basin-scale planning",
+      "Created GIS-based surface water analysis tools"
+    ],
+    technologies: ["GRACE/-FO", "Python", "Satellite Gravimetry", "Hydrological Modeling", "GIS"],
+    github: null
+  },
+  {
     title: "Advanced Flood Forecasting System for Northern Thailand",
     year: "2024-2025",
     description: "Developed a comprehensive flood forecasting and early warning system using the RRI (Rainfall-Runoff-Inundation) model integrated with data assimilation techniques. The system processes satellite-derived precipitation data and hydrological observations to provide accurate flood predictions for Northern Thailand.",
@@ -13,19 +25,6 @@ const projects = [
       "Created real-time forecasting capabilities for early warning systems"
     ],
     technologies: ["Python", "Fortran", "RRI Model", "Data Assimilation", "GIS", "Remote Sensing"],
-    github: "https://github.com/bikrampandey71"
-  },
-  {
-    title: "GRACE/-FO Satellite Gravimetry for Groundwater Monitoring",
-    year: "2026-Present",
-    description: "Research project utilizing GRACE/-FO satellite data integrated with hydrological-numerical modeling for groundwater monitoring and water resource management in Southeast Asia. Includes downscaling techniques to refine resolution from ~300 km to ~10 km for practical applications.",
-    highlights: [
-      "Developed downscaling algorithms for GRACE/-FO data",
-      "Applied earthquake corrections for accurate hydrological signal detection",
-      "Combined satellite data with hydrological models for basin-scale planning",
-      "Created GIS-based surface water analysis tools"
-    ],
-    technologies: ["GRACE/-FO", "Python", "Satellite Gravimetry", "Hydrological Modeling", "GIS"],
     github: null
   },
   {
