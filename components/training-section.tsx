@@ -2,16 +2,16 @@ import { Award, Calendar } from "lucide-react"
 
 const trainings = [
   {
-    title: "Career Fair and Forum Volunteer",
-    organization: "Asian Institute of Technology",
-    year: "2023, 2024",
-    description: "Collaborated with leading companies to create valuable networking and career opportunities for attendees at the AIT Career Fair and Forum."
-  },
-  {
     title: "Application of Satellite-based Soil Moisture Data Seminar",
     organization: "INCAP",
     year: "2024, 2025",
     description: "Attended comprehensive seminars on utilizing satellite-based soil moisture data for hydrological and agricultural applications."
+  },
+  {
+    title: "Career Fair and Forum Volunteer",
+    organization: "Asian Institute of Technology",
+    year: "2023, 2024",
+    description: "Collaborated with leading companies to create valuable networking and career opportunities for attendees at the AIT Career Fair and Forum."
   },
   {
     title: "AutoCAD and SketchUp Training Certification",
