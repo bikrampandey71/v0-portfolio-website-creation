@@ -8,7 +8,7 @@ const education = [
     field: "Water Engineering and Management",
     institution: "Asian Institute of Technology",
     location: "Klong Luang, Thailand",
-    thesis: "Advancing Flood Forecasting for Northern Thailand using RRI model and Data Assimilation Technique",
+    thesis: "Advancing Flood Forecasting for Northern Thailand using Rainfall-Runoff-Inundation model and Data Assimilation Technique",
     supervisor: "Dr. Natthachet Tangdamrongsub",
     modules: [
       "Watershed Hydrology and Modelling of Water Resource Systems",
