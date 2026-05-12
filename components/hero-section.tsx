@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Mail, Phone, MapPin, Link2, Flag, Linkedin, Github } from "lucide-react"
+import { Mail, Phone, MapPin, Link2, Flag, Linkedin, Github, Youtube } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
@@ -107,6 +107,11 @@ export function HeroSection() {
                 icon={<Github className="h-5 w-5" />} 
                 text="github.com/bikrampandey71" 
                 href="https://github.com/bikrampandey71"
+              />
+              <ContactItem 
+                icon={<Youtube className="h-5 w-5" />} 
+                text="youtube.com/@bikrampandey6533" 
+                href="https://www.youtube.com/@bikrampandey6533"
               />
               <ContactItem 
                 icon={<Flag className="h-5 w-5" />} 
