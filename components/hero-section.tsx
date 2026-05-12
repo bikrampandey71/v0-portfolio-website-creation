@@ -70,7 +70,7 @@ export function HeroSection() {
                   Get in Touch
                 </Link>
               </Button>
-              <Button asChild variant="outline" className="rounded-full px-6 border-border hover:bg-secondary">
+              <Button asChild variant="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6">
                 <Link href="https://www.linkedin.com/in/bikram-pandey-a2b54b1a2/" target="_blank">
                   <Link2 className="mr-2 h-4 w-4" />
                   LinkedIn Profile
@@ -98,7 +98,7 @@ export function HeroSection() {
               />
               <ContactItem 
                 icon={<Phone className="h-5 w-5" />} 
-                text="+66 0964184196" 
+                text="+66 0964184196 / +977 9843554949" 
               />
               <ContactItem 
                 icon={<MapPin className="h-5 w-5" />} 
