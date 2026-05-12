@@ -8,12 +8,11 @@ const experiences = [
     title: "Research Associate",
     company: "Asian Institute of Technology",
     location: "Thailand",
-    description: "Leading cutting-edge research on Satellite Gravimetry for Hydro-Resource Assessment in Southeast Asia. Utilizing GRACE/-FO satellite data integrated with hydrological-numerical modeling for groundwater monitoring and water resource management across the Mekong River Basin and neighboring regions.",
+    description: "Leading cutting-edge research on Satellite Gravimetry for Hydro-Resource Assessment in Southeast Asia. Utilizing GRACE/-FO satellite data integrated with hydrological modeling for groundwater monitoring and water resource management.",
     bullets: [
       "Monitoring Water Storage with GRACE/-FO: Integrating satellite gravimetry with hydrological-numerical modeling (PCR-GLOBWB, GLDAS) to provide robust insights into groundwater variability at the basin scale in regions with limited ground data, enabling better water resource management decisions",
-      "Correcting for Earthquake Signals: Developing and applying advanced earthquake correction algorithms to ensure groundwater monitoring reflects true hydrological processes rather than tectonic artifacts from major seismic events like the 2004 Andaman tsunami and 2012 Indian Ocean earthquake",
       "Downscaling for GRACE data: Implementing machine learning-based downscaling techniques to refine GRACE/-FO's coarse resolution (~300 km) to ~10 km spatial resolution, capturing local variability essential for groundwater monitoring, drought assessment, and practical hydrological planning in Southeast Asia",
-      "GRACE/-FO, Hydrological models, and GIS-Based Surface Water Analysis: Combining GRACE/-FO total water storage anomalies with hydrological models and precipitation datasets (GPM, CHIRPS) to separate groundwater from surface water components, providing actionable insights for water security and basin-scale planning"
+      "GRACE/-FO, Hydrological models, and GIS-Based Surface Water Analysis: Combining GRACE/-FO total water storage anomalies with hydrological models and precipitation datasets to separate groundwater from surface water components, providing actionable insights for water security and basin-scale planning."
     ],
     skills: ["GRACE/-FO", "Satellite Gravimetry", "Hydrological Modeling", "GIS", "Python", "Downscaling", "Machine Learning"],
     link: "https://www.ait.ac.th/"
@@ -24,11 +23,11 @@ const experiences = [
     title: "Research Assistant",
     company: "Asian Institute of Technology",
     location: "Thailand",
-    description: "Developed an advanced flood forecasting and early warning system for Northern Thailand's Ping River Basin by integrating the physically-based Rainfall-Runoff-Inundation (RRI) model with satellite-derived precipitation data (GSMaP, GPM-IMERG) and real-time hydrological observations through data assimilation techniques.",
+    description: "Developed an advanced flood forecasting and early warning system for Northern Thailand's Nan River Basin by integrating the physically-based Rainfall-Runoff-Inundation (RRI) model with satellite-derived precipitation data (GSMaP, GFS) and real-time hydrological observations through data assimilation techniques.",
     bullets: [
       "Implemented Python, Fortran, and Unix-based scripting workflows to process terabytes of hydrological data from multiple satellite sources, automate RRI model calibration and validation, and generate real-time flood forecasts with 24-72 hour lead times",
-      "Led and organized bi-weekly technical meetings with the Thai Meteorological Department, Royal Irrigation Department, and Hydro-Informatics Institute, facilitating inter-institutional collaborations for operational flood warning system implementation",
-      "Prepared comprehensive technical reports documenting methodology, validation results, and uncertainty analysis, contributing to peer-reviewed publications on data assimilation techniques for ungauged catchments"
+      "Led and organized bi-weekly technical meetings facilitating inter-institutional collaborations for operational flood warning system implementation",
+      "Prepared comprehensive technical reports documenting methodology, validation results, and uncertainty analysis, contributing to peer-reviewed publications on data assimilation techniques for ungauged catchments."
     ],
     skills: ["Python", "Fortran", "Unix", "RRI Model", "Data Assimilation", "GSMaP", "Flood Forecasting"],
     link: "https://www.ait.ac.th/"
@@ -39,7 +38,7 @@ const experiences = [
     title: "Project Engineer",
     company: "Appolo Hydropower Limited",
     location: "Okhaldhunga, Nepal",
-    description: "Led comprehensive civil works supervision and construction execution for the Buku Khola Small Hydropower Project (6 MW) in the mountainous Okhaldhunga district of Eastern Nepal, managing a team of 25+ construction workers and coordinating with contractors, suppliers, and regulatory authorities.",
+    description: "Led comprehensive civil works supervision and construction execution for the Buku Khola Hydropower Project (6 MW) in the mountainous Okhaldhunga district of Eastern Nepal, managing a team of 25+ construction workers and coordinating with contractors, suppliers, and regulatory authorities.",
     bullets: [
       "Supervised all civil engineering components including headworks (Tyrolean weir intake), desilting basin, 2.8 km headrace canal, forebay tank, 450m penstock alignment, and powerhouse construction, ensuring compliance with design specifications and quality standards",
       "Spearheaded tender document preparation and contractor evaluation for major civil works packages totaling NPR 180+ million, optimizing project strategy through competitive bidding and ensuring contractual compliance with Nepal Electricity Authority requirements",
