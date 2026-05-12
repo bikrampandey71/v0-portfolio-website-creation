@@ -35,7 +35,6 @@ const skillCategories = [
       "Fortran",
       "Unix/Linux",
       "MATLAB",
-      "Shell Scripting",
       "Git/GitHub"
     ]
   },
