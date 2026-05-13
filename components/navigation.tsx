@@ -39,10 +39,10 @@ export function Navigation() {
 
           <div className="hidden md:block">
             <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6">
-              <Link href="#contact">Hire Me</Link>
+              <Link href="mailto:bikrampandey71@gmail.com">Hire Me</Link>
             </Button>
           </div>
-
+          
           {/* Mobile Menu Button */}
           <button
             className="md:hidden text-foreground"
