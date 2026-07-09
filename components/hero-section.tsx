@@ -55,7 +55,7 @@ export function HeroSection() {
             <p className="text-muted-foreground leading-relaxed mb-6 max-w-xl mx-auto lg:mx-0 text-sm">
               Bikram Pandey is a water resources engineer and hydrologist specializing in hydrological modelling, 
               flood forecasting, and water resource systems. He holds a Master of Engineering degree in Water Engineering 
-              and Management from the Asian Institute of Technology (completed December 2025), where his research focused 
+              and Management from the Asian Institute of Technology, where his research focused 
               on advancing flood forecasting using the RRI model and data assimilation techniques. He has professional 
               experience in hydropower engineering projects in Nepal and research experience in hydrological data analysis, 
               modelling, and early warning systems. His technical expertise includes GIS, hydrological modelling, and 
