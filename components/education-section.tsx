@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const education = [
   {
-    period: "JAN 2024 — JAN 2026",
+    period: "Jan 2024 — Jan 2026",
     degree: "Master of Engineering",
     field: "Water Engineering and Management",
     institution: "Asian Institute of Technology",
