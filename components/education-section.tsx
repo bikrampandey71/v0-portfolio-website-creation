@@ -20,7 +20,7 @@ const education = [
     link: "https://www.ait.ac.th/"
   },
   {
-    period: "AUG 2015 — AUG 2019",
+    period: "Aug 2015 — Aug 2019",
     degree: "Bachelor of Engineering",
     field: "Civil Engineering (Specialization in Hydropower)",
     institution: "Kathmandu University",
